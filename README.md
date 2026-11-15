@@ -1,5 +1,11 @@
 # Shell Scripting
 
+<!-- local-development:start -->
+## Desarrollo local
+
+Consulta [RUNNING.md](RUNNING.md) para ubicar cada componente, abrirlo en su IDE, compilarlo y conocer las comprobaciones realizadas y los requisitos pendientes.
+<!-- local-development:end -->
+
 -   [What is it?](#what-is-it)
 -   [Bash scripting language pros and cons](bash-scripting-language-pros-and-cons)
 -   [So what are the alternatives?](#so-what-are-the-alternatives)
