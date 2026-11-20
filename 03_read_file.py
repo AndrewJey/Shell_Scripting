@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
+from pathlib import Path
 
-with open('days.txt') as file:
+days_file = Path(__file__).resolve().parent / 'days.txt'
+with days_file.open(encoding='utf-8') as file:
     for line in file:
-    	# Each line will have a newline on the end
-        # that should be removed.
-        line = line.strip()
-        print(line)
-
+        print(line.strip())
